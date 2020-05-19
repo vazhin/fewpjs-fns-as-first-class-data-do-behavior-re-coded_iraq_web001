@@ -10,15 +10,15 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 function greet(timeString) {
-  let str timeString.slice(0,2)
+  let str = timeString.slice(0,2)
   parseInt(str);
-  if ( timeString < 12){
+  if ( str < 12){
     return "Good Morning";
   }
-  if ( timeString < 12 && timeString < 17 ){
+  if ( str < 12 && str < 17 ){
     return "Good Afternoon";
   }
-  if ( timeString > 17){
+  if ( str > 17){
     return "Good Evening";
   }
 }
