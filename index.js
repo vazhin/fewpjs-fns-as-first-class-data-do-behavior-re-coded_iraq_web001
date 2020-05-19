@@ -21,4 +21,15 @@ function greet(timeString) {
     return "Good Evening";
   }
 }
+
 /* Write your implementation of displayMessage() */
+
+function displayMessage(string){
+  document.querySelector('#greeting').innerText = string
+}
+
+
+
+
+
+
