@@ -10,7 +10,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 function greet(timeString) {
-  timeString.slice(0,1);
+  timeString.slice(0,2);
   console.log(timeString)
   if ( timeString < 12){
     return "Good Morning";
