@@ -13,8 +13,8 @@ function greet(timeString) {
   if ( timeString < 12){
     return "Good Morning";
   }
-  if ( timeString > 12){
-    return "Good Morning";
+  if ( timeString < 12 && timeString < 17 ){
+    return "Good Afternoon";
   }
   if ( timeString > 12){
     return "Good Morning";
