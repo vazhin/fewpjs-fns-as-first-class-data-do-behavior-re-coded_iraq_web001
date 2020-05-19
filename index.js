@@ -15,7 +15,7 @@ function greet(timeString) {
   if ( hour < 12){
     return "Good Morning";
   }
-  if ( hour < 12 && str < 17 ){
+  if ( hour > 12 && str < 17 ){
     return "Good Afternoon";
   }
   if ( hour > 17){
